@@ -9,3 +9,6 @@ body { margin:0; background:var(--paper); color:var(--ink); font-family:var(--fo
 .leaflet-container { height:100%; width:100%; font-family:var(--font-body), sans-serif; }
 .leaflet-control-zoom a { color:var(--teal)!important; }
 ::selection { background:#bfe2d4; color:var(--ink); }
+@keyframes ambientDrift { 0% { transform:translate3d(0,0,0) scale(1); } 50% { transform:translate3d(4vw,-3vh,0) scale(1.08); } 100% { transform:translate3d(-3vw,2vh,0) scale(.96); } }
+.ambient-glow { position:absolute; border-radius:9999px; animation:ambientDrift 26s ease-in-out infinite alternate; will-change:transform; }
+@media (prefers-reduced-motion: reduce) { .ambient-glow { animation:none; } }
