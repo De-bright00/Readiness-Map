@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+
+:root { --ink:#173d3b; --muted:#657674; --paper:#f7f6f1; --teal:#0e625e; --amber:#e7a23b; --coral:#d96857; --line:#dfe5df; }
+@theme inline { --font-sans: var(--font-body); --font-display: var(--font-display); --color-background: var(--paper); --color-foreground: var(--ink); }
+* { box-sizing: border-box; }
+html { scroll-behavior:smooth; }
+body { margin:0; background:var(--paper); color:var(--ink); font-family:var(--font-body), sans-serif; }
+.font-display { font-family:var(--font-display), serif; }
+.leaflet-container { height:100%; width:100%; font-family:var(--font-body), sans-serif; }
+.leaflet-control-zoom a { color:var(--teal)!important; }
+::selection { background:#bfe2d4; color:var(--ink); }
