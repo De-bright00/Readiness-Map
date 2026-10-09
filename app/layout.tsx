@@ -6,8 +6,15 @@ const fraunces = Fraunces({ subsets: ['latin'], variable: '--font-display' })
 const inter = Inter({ subsets: ['latin'], variable: '--font-body' })
 
 export const metadata: Metadata = {
-  title: 'PHC Readiness Map | Nigeria',
-  description: 'A clearer picture of where primary healthcare is actually available across FCT, Lagos and Kano.',
+  title: 'Lafiya Reach | Nigeria',
+  description: 'Lafiya Reach — A clearer picture of where primary healthcare is actually available across FCT, Lagos and Kano.',
+  icons: {
+    icon: [
+      { url: '/logo.png', type: 'image/png' },
+      { url: '/favicon.ico', sizes: 'any' },
+    ],
+    apple: '/logo.png',
+  },
 }
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
