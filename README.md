@@ -13,8 +13,8 @@ A readiness map of primary health facilities in FCT, Lagos and Kano. It shows wh
 - **Live site:** [https://lafiya-reach.vercel.app/](https://lafiya-reach.vercel.app/)
 - **Video demo:** [https://youtu.be/YrmtrY71INs](https://youtu.be/YrmtrY71INs)
 - **Project folder (Google Drive):** [Google Drive Folder](https://drive.google.com/drive/folders/12qjwGe1O9XcntPcZH4XGe4JmhsttBwG9?usp=sharing)
-- **Write-up:** [docs/Lafiya-Reach-writeup.pdf](https://claude.ai/chat/docs/Lafiya-Reach-writeup.pdf)
-- **One-page summary:** [docs/SUMMARY.md](https://claude.ai/chat/docs/SUMMARY.md)
+- **Write-up:** [docs/Lafiya-Reach-writeup.pdf](https://docs.google.com/document/d/1poNpYui45v9mFFK8AYT6f5r5xewYOfyc/edit?usp=sharing&ouid=102016722961723019716&rtpof=true&sd=true)
+- **One-page summary:** [docs/SUMMARY.md](https://docs.google.com/document/d/1HsIvCoHNrzq574m5kx7-nlWx48tXecIIs_I5bbpenK8/edit?usp=sharing)
 
 ---
 
